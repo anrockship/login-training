@@ -4,6 +4,7 @@ import './index.css';
 import Timer from './Components/Demo/Demo';
 import Form from './Components/Form/Form';
 import Login from './Components/Login/Login';
+import List from './Components/List/List';
 
 class Hello extends React.Component {
   render() {
@@ -12,6 +13,7 @@ class Hello extends React.Component {
         <h1>Hello {this.props.name}</h1>
 
         <Login />
+        <List /> 
       </div>
     );
   }
