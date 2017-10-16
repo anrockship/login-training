@@ -4,3 +4,11 @@
     border: 1px solid #efefef;
     margin-left: 25%;
 }
+
+.login {
+    margin-left: 25%;
+}
+
+label, input, button {
+    margin: 15px;
+}
